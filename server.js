@@ -22,10 +22,7 @@ app.use((request,response,next)=>{
 		console.log(request);
 		next();
 });
-app.use((request,response,next)=>{
-		response.render('coming_soon.hbs');
 
-})
 
 
 app.get('/' , (request,response)=>{
